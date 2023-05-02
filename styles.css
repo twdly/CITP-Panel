@@ -185,6 +185,11 @@ button {
     cursor: pointer;
 }
 
+.search {
+    padding-top: 16px;
+    text-align: center;
+}
+
 #selected a {
     color: #1c1d1c;
     font-weight: bold;
