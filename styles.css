@@ -173,6 +173,5 @@ code {
 
 #selected a {
     color: #1c1d1c;
-    text-decoration: underline;
-    text-decoration-color: #1c1d1d;
+    font-weight: bold;
 }
