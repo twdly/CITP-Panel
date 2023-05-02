@@ -1,0 +1,183 @@
+html {
+    overflow-y: scroll;
+    color-scheme: dark;
+}
+
+::selection {
+    background-color: #4a5a5e;
+}
+
+header {
+    min-height: 50px;
+}
+
+body {
+    background-color: #2A3235;
+    font-family: system-ui;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    min-height: 50px;
+}
+
+footer p {
+    color: #526B6F;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+ol {
+    color: #DEEEF3;
+}
+
+footer a {
+    color: #526B6F;
+}
+
+h1 {
+    color: #EEB9C1;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-top: 0;
+}
+
+article {
+    flex: 1;
+}
+
+h2 {
+    color: #66b9d2;
+}
+
+p {
+    color: #DEEEF3;
+    line-height: 1.4;
+}
+
+a {
+    color: #B3DCE2;
+}
+
+table {
+    color: #DEEEF3;
+    table-layout: fixed;
+    width: 100%;
+}
+
+hr {
+    background-color: #B3DCE222;
+    border: none;
+    height: 2px;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    max-width: min(95vw, 500px);
+}
+
+.columntitle {
+    color: #EEB9C1;
+    font-weight: bold;
+}
+
+.rowtitle {
+    color: #66b9d2;
+    font-weight: bold;
+}
+
+td {
+    padding-bottom: 5%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.nav li {
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.nav :hover {
+    color: #EEB9C1;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #B3DCE2;
+    transition: 0.2s;
+}
+
+#pagedescription {
+    color: #526B6F;
+}
+
+div.centretext {
+    max-width: min(95vw, 500px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+img {
+    display: block;
+    max-width: min(95vw, 500px);
+    justify-content: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+table+h2 {
+    margin-top: 0px;
+}
+
+footer hr {
+    margin-top: 7px;
+}
+
+.caption {
+    color: #526B6F;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 0;
+    max-width: 400px;
+}
+
+.description {
+    color: #526B6F;
+}
+
+code {
+    font-family: Menlo, Consolas, monospace;
+}
+
+.tall {
+    height: 75vh;
+    width: auto;
+    padding-top: 10px;
+}
+
+#selected :hover {
+    color: #EEB9C1;
+    text-decoration-color: #EEB9C1;
+}
+
+#selected a {
+    color: #66b9d2;
+    text-decoration: underline;
+    text-decoration-color: #66b9d2;
+}
