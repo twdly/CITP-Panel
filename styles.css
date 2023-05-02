@@ -172,6 +172,19 @@ code {
     padding-top: 10px;
 }
 
+.buttons {
+    text-align: center;
+}
+
+button {
+    background-color: #fffff8;
+    color: #111111;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
 #selected a {
     color: #1c1d1c;
     font-weight: bold;
