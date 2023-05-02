@@ -185,7 +185,7 @@ button {
     cursor: pointer;
 }
 
-.search {
+#search {
     padding-top: 16px;
     text-align: center;
 }
