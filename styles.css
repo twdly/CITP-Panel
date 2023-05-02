@@ -1,10 +1,10 @@
 html {
     overflow-y: scroll;
-    color-scheme: dark;
+    color-scheme: light;
 }
 
 ::selection {
-    background-color: #4a5a5e;
+    background-color: #FFF1AA;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 }
 
 body {
-    background-color: #2A3235;
+    background-color: #fffff8;
     font-family: system-ui;
     min-height: 100vh;
     margin: 0;
@@ -40,7 +40,7 @@ footer a {
 }
 
 h1 {
-    color: #EEB9C1;
+    color: #4d4f4f;
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -52,16 +52,16 @@ article {
 }
 
 h2 {
-    color: #66b9d2;
+    color: #757878;
 }
 
 p {
-    color: #DEEEF3;
+    color: #111111;
     line-height: 1.4;
 }
 
 a {
-    color: #B3DCE2;
+    color: #526B6F;
 }
 
 table {
@@ -71,9 +71,9 @@ table {
 }
 
 hr {
-    background-color: #B3DCE222;
+    background-color: #526B6F;
     border: none;
-    height: 2px;
+    height: 1px;
     margin-bottom: 15px;
     margin-top: 12px;
     max-width: min(95vw, 500px);
@@ -109,12 +109,12 @@ td {
 }
 
 .nav :hover {
-    color: #EEB9C1;
+    color: #1c1d1c;
 }
 
 .nav a {
     text-decoration: none;
-    color: #B3DCE2;
+    color: #526B6F;
     transition: 0.2s;
 }
 
@@ -171,13 +171,8 @@ code {
     padding-top: 10px;
 }
 
-#selected :hover {
-    color: #EEB9C1;
-    text-decoration-color: #EEB9C1;
-}
-
 #selected a {
-    color: #66b9d2;
+    color: #1c1d1c;
     text-decoration: underline;
-    text-decoration-color: #66b9d2;
+    text-decoration-color: #1c1d1d;
 }
